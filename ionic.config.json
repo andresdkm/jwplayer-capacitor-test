@@ -1,0 +1,7 @@
+{
+  "name": "JwplayerIosTest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
