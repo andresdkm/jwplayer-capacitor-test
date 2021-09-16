@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "JwplayerIosTest",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
