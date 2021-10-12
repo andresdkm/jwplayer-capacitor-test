@@ -1,6 +1,5 @@
-import { Plugins } from "@capacitor/core"
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import {JWPlayer} from '../../../../jwplayer-capacitor/src'
+import {JWPlayer} from '../../../../jwplayer-capacitor/src';
 
 @Component({
   selector: 'app-tab3',
@@ -15,14 +14,14 @@ export class Tab3Page implements OnInit {
 
 
   ngOnInit(): void {
-  
+
   }
 
   async ionViewDidEnter(){
     const boundingRect = this.playerView.nativeElement.getBoundingClientRect() as DOMRect;
     JWPlayer.initialize({
-      androidLicenseKey: 'Qq4MGMlmsRMNFBOOsWnFZwcONENXxop6BOx+1TwTwMMQ+IxNQQqs34qTzI8oNj2z',
-      iosLicenseKey: 'mNJ42f6uFZThicvyVPCcoxtHQfS5asC/LPXwzTGPSE8sgJtsnBrqULttaKEwPGzt'
+      androidLicenseKey: 'EYPdbBu9ECoJAoBHnBGaTseuLACo7e/G8foiHpeTRQM+Li865pJjK3BfMtDLBdtP',
+      iosLicenseKey: 'irZz2/dRCwC2bTRq3OLEtqSb2EtSpCQroPHjXdloZ0fawwSzmZPZlLJkPqF483MR'
     }).then(r => {
       JWPlayer.create({
         videoURL: 'https://cdn.jwplayer.com/manifests/ePUbBhMu.m3u8',
